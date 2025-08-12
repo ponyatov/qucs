@@ -1,4 +1,4 @@
-# Установка [[Qucs-S]]
+# Установка программного обеспечения
 
 https://ra3xdh.github.io/
 
@@ -11,7 +11,9 @@ https://ra3xdh.github.io/
 		echo 'deb http://download.opensuse.org/repositories/home:/ra3xdh/Debian_12/ /' | sudo tee /etc/apt/sources.list.d/qucs.ra3xdh.list
 		
 		curl -fsSL https://download.opensuse.org/repositories/home:ra3xdh/Debian_12/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/qucs.ra3xdh.gpg > /dev/null
-		
+		```
+	- [[ngspice]] & [[KiCAD]]
+		```sh
 		sudo apt update
 		sudo apt install -uy kicad ngspice qucs-s
 		```

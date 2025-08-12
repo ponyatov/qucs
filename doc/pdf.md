@@ -1,2 +1,5 @@
 ![[qucs/book|book]]
 ![[qucs/Предисловие|Предисловие]]
+![[Введение в Qucs-S и ngspice]]
+![[Что такое Qucs-S и ngspice]]
+![[qucs/install|Установка и настройка]]
