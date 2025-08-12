@@ -35,6 +35,12 @@
             "command"        : "ngspice",
             "args"           : ["${file}"],
             "group"          : {"kind": "build", "isDefault": true}
-        }
+        },
+        {
+            "label"          : "gerber",
+            "command"        : "make",
+            "args"           : ["gerber"],
+            "group"          : {"kind": "build", "isDefault": true}
+        },
     ]
 }
