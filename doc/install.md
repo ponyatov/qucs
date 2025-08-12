@@ -18,6 +18,13 @@ https://ra3xdh.github.io/
 		```sh
 		sudo apt install -uy `cat apt.Debian`
 		```
+```sh
+echo 'deb http://download.opensuse.org/repositories/home:/ra3xdh/Debian_12/ /' | sudo tee /etc/apt/sources.list.d/qucs.ra3xdh.list
+
+curl -fsSL https://download.opensuse.org/repositories/home:ra3xdh/Debian_12/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/qucs.ra3xdh.gpg > /dev/null
+sudo apt update
+sudo apt install qucs-s
+```
 - файлы для [[make]]
 
 - `mk/version.mk`

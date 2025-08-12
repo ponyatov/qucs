@@ -14,6 +14,7 @@ include mk/doc.mk
 include mk/ai.mk
 include mk/patch.mk
 include mk/python.mk
+include mk/qucs.mk
 include mk/ref.mk
 include mk/gz.mk
 include mk/install.mk
