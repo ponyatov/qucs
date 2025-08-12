@@ -4,6 +4,7 @@
 > [[qucs/AI|AI]]
 
 ## [[qucs/Предисловие|Предисловие]]
+- [[qucs/install|install]]
 
 ### **Глава 1: [[Введение в Qucs-S и ngspice]]**
 

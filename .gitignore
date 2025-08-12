@@ -1,1 +1,7 @@
+*~
+*.swp
+*.log
+/pyvenv.cfg
+*.pyc
+lib64
 !.gitignore
