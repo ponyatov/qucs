@@ -16,5 +16,12 @@
         // Python
         "ms-python.python",
         "ms-python.autopep8",
+        // circuits
+        "xuanli.spice",
+        "atmanandgauns.run-spice",
+        "danielmeza.kicad-syntax-highlighter",
+        "sajadghorbani.kicode",
+        "argmaster.gerber-x3-x2-format-support",
+        "tbolp.gerberviewer",
     ]
 }

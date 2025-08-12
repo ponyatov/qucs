@@ -30,5 +30,11 @@
             "presentation"   : {"showReuseMessage": true, "focus": true, "reveal": "silent", "close": false},
             "group"          : {"kind": "build", "isDefault": true}
         },
+        {
+            "label"          : "ngspice",
+            "command"        : "ngspice",
+            "args"           : ["${file}"],
+            "group"          : {"kind": "build", "isDefault": true}
+        }
     ]
 }
