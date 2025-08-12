@@ -1,10 +1,10 @@
 G04 50x100mm default PCB*
 %MOMM*%
-%FSLAX36Y36*%
+%FSLAX26Y26*%
 %TF.Part,Other,example*%
 %LPD*%
-%ADD10C,0.500000*%
-%ADD11C,3.200000*%
+%ADD10C,0.5*%
+%ADD11C,7.0X3.2*%
 
 G04 Board Edge Layer*
 D10*
