@@ -19,6 +19,9 @@ ngspice circuit.cir  # запуск с загрузкой netlist-файла
 
 ```ngspice
 cd lib/qucs/hello_prj  # смена текущего каталога
+shell ls               # вызвать команду ОС (список файлов в Linux)
+```
+```ngspice
 source circuit.cir     # загрузка netlist-файла
 listing                # просмотр текущей схемы
 write filename.cir     # сохранение текущей схемы
