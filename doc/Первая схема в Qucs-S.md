@@ -14,17 +14,20 @@
 			- `git clone -o git@github.com:yourname/qucs.git ~/qucs`
 			- `cd ~/qucs ; git checkout --orphan 'whoami'`
 			- `git add -A ; git commit -am "." ; git push -uv gh 'whoami'`
-	- вы ничего не поняли в этих портянка команд, и просто хотите начать работать: создайте/выберите любой подходящий каталог для проектов:
-		- File > Application Settings... > Locations
-			- Qucs Home: `/home/dponyatov/qucs/lib/qucs`
-			- Octave Path: `/usr/bin/octave` (аналог языка [[R/R|R]] & [[Matlab]])
-			- [[Verilog/AMS]] пока пропустим...
-			- [Ok]
+		- если вы ничего не поняли в этих портянках команд, и просто хотите начать работать: создайте/выберите любой подходящий каталог для проектов
+	- File > Application Settings... > Locations
+		- Qucs Home: `/home/dponyatov/qucs/lib/qucs`
+		- Octave Path: `/usr/bin/octave` (аналог языка [[R/R|R]] & [[Matlab]])
+		- [Ok]
 1. Создание нового проекта
 	- Project > New Project...
 		- Project name: `hello`
 		- [v] open new project
 		- [Create]
+		- создастся каталог пустого проекта, стоит сразу записать пустую схему, и добавить проект в git-репозиторий
+	- File > Save All...
+		- File name: hello
+		- [Save]
 
 Будет создан пустой проект:
 ![[qucs_new_project.png]]
