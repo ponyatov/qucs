@@ -92,7 +92,7 @@ Ngspice executable location -> ngspice
 
 ## tutorial
 
-- [Qucs. Начало работы (0.0.19)](https://youtu.be/d3VsmT2pAOc)
+- [Qucs. Начало работы (0.0.19)]()
 
 ![[el/делитель напряжения]]
 
